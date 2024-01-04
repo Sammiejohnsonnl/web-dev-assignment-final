@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif; 
+  color: #1e2a4a; 
+}
+
+.burger {
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  min-width: 600px;
+}
+
+header {
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 a:hover {
+  text-decoration: underline;
+  color: #283845;  
+}
+
+#logo {
+  padding: 10px;
+}
+
+nav li a:hover {
+    color: #81611a; 
+}
+
+nav ul {
+  padding-left: 0;
+  flex-direction: row;
+}
+
+nav ul li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-left: 1px solid #283845;
+}
+
+nav li:first-child {
+  border-left: none;
+}
+
+main {
+  display: flex;
+}
+
+.section {
+  
+  padding: 0 10px 10px 0;
+}
+
+.resize-img {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  flex: 0 1 200px;
+  padding: 20px 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 70px 0 0 10px;
+}
+
+.left-float {
+  float: left;
+  padding: 0 15px 15px 0;
+}
+
+.right-float {
+    float: right;
+    padding: 0 15px 15px 0;
+  }
+
+table {
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+th,
+td {
+  padding: 10px 4px;
+  text-align: left;
+}
+
+th {
+  text-transform: uppercase;
+  border-bottom: 4px solid #181616;
+  background-color: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #ccc;
+}
