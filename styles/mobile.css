@@ -44,12 +44,6 @@ nav li a:hover {
   color: #81611a; 
 }
 
-nav ul.active {
-  display: flex;
-  flex-direction: column;
-}
-
-
 nav ul {
   list-style: none;
   padding-left: 0;
@@ -137,4 +131,9 @@ footer {
   .burger-icon {
       display: block;
   }
+}
+
+nav ul.active {
+  display: flex;
+  flex-direction: column;
 }
