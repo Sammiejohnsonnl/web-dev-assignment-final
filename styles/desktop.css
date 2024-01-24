@@ -79,12 +79,14 @@ main {
 .left-float {
   float: left;
   padding: 0 15px 15px 0;
+  width: 50%;
 }
 
 .right-float {
-    float: right;
-    padding: 0 15px 15px 0;
-  }
+  float: right;
+  padding: 0 15px 15px 0;
+    width: 50%;
+}
 
 table {
   width: 100%;
@@ -107,3 +109,4 @@ th {
 tr:nth-child(odd) {
   background-color: #ccc;
 }
+
