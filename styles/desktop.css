@@ -37,6 +37,11 @@ nav li a:hover {
     color: #81611a; 
 }
 
+nav ul.active {
+  display: flex;
+  flex-direction: column;
+}
+
 nav ul {
   padding-left: 0;
   flex-direction: row;
@@ -110,3 +115,20 @@ tr:nth-child(odd) {
   background-color: #ccc;
 }
 
+.burger-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 6px 0;
+}
+
+@media only screen and (max-width: 720px) {
+  .burger-icon {
+      display: block;
+  }
+}

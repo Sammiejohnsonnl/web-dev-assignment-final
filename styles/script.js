@@ -1,11 +1,6 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const burgerIcon = document.querySelector('.burger');
-    const navList = document.querySelector('nav ul');
-
-    burgerIcon.addEventListener('click', function () {
+function toggleNav() {
+    const navList = document.querySelector('.container nav ul');
+    if (navList) {
         navList.classList.toggle('active');
-    });
-
-
-
-});
+    }
+}
