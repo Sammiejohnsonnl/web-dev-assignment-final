@@ -56,7 +56,7 @@ nav ul li {
 }
 
 nav ul li.active {
-  background-color: #b18520;
+  background-color: #e2e0da;
 }
 
 nav ul li.active a {
@@ -124,20 +124,3 @@ tr:nth-child(odd) {
   background-color: #ccc;
 }
 
-.burger-icon {
-  display: none;
-  cursor: pointer;
-}
-
-.bar {
-  width: 30px;
-  height: 3px;
-  background-color: #ffffff;
-  margin: 6px 0;
-}
-
-@media only screen and (max-width: 720px) {
-  .burger-icon {
-      display: block;
-  }
-}
