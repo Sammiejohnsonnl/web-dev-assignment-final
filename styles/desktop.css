@@ -55,6 +55,15 @@ nav ul li {
   border-left: 1px solid #283845;
 }
 
+nav ul li.active {
+  background-color: #b18520;
+}
+
+nav ul li.active a {
+  color: #ffffff;
+}
+
+
 nav li:first-child {
   border-left: none;
 }

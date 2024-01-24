@@ -137,3 +137,11 @@ nav ul.active {
   display: flex;
   flex-direction: column;
 }
+
+nav ul li.active {
+  background-color: #b18520;
+}
+
+nav ul li.active a {
+  color: #ffffff;
+}
